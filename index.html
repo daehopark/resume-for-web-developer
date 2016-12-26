@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
+    <title>Bootstrap</title>
+
+    <!-- bootstrap -->
+    <link href="./assets/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link href="./assets/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- custom css -->
+    <link href="./assets//css/common.css" rel="stylesheet">
+    <link href="./assets//css/style.css" rel="stylesheet">
+
+    <!-- IE8 에서 HTML5 요소와 미디어 쿼리를 위한 HTML5 shim 와 Respond.js -->
+    <!-- WARNING: Respond.js 는 당신이 file:// 을 통해 페이지를 볼 때는 동작하지 않습니다. -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="resume-wrapper">
+
+      <!-- header -->
+      <header>
+        <h1 class="heading-container">Résumé</h1>
+        <h2 class="name-container">DHPARK</h2>
+        <h3 class="job-container">Web Developer</h3>
+        <div class="profile-picture">
+          <img src="./assets/img/profile.png" alt="profile picture">
+        </div>
+        <div class="contact-container">
+          <ul class="contact-list">
+            <li>
+              <a href="https://github.com/dhparkdh" target="_blank">https://github.com/dhparkdh</a>
+              <span><i class="fa fa-github" aria-hidden="true"></i></span>
+            </li>
+            <li>
+              <a href="https://dhparkdh.github.io" target="_blank">https://dhparkdh.github.io</a>
+              <span><i class="fa fa-globe" aria-hidden="true"></i></span>
+            </li>
+            <li>
+              <a href="mailto:dhpark0648@gmail.com">dhpark0648@gmail.com</a>
+              <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            </li>
+            <li>
+              <a href="tel:010-0000-0000">010-0000-0000</a>
+              <span><i class="fa fa-mobile" aria-hidden="true"></i></span>
+            </li>
+          </ul>
+        </div>
+      </header><!-- header -->
+
+      <!-- main -->
+      <section id="main">
+        <div class="left"></div>
+        <div class="right">
+
+          <!-- experince -->
+          <section class="resume-item experience">
+            <div class="inner">
+              <h2>experience</h2>
+              <ul>
+                <li>
+                  <h3>Company</h3>
+                  <h4 class="role">Front-End Developer</h4>
+                  <span class="date">2015 - 2016</span>
+                  <p class="detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </li>
+                <li>
+                  <h3>Company</h3>
+                  <h4 class="role">Front-End Developer</h4>
+                  <span class="date">2015 - 2016</span>
+                  <p class="detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </li>
+                <li>
+                  <h3>Company</h3>
+                  <h4 class="role">Front-End Developer</h4>
+                  <span class="date">2015 - 2016</span>
+                  <p class="detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </li>
+              </ul>
+            </div>
+          </section><!-- experince -->
+
+          <!-- project -->
+          <section class="resume-item project">
+            <div class="inner">
+              <h2>Project</h2>
+              <ul>
+                <li>
+                  <h3><a href="#">Project</a></h3>
+                  <p class="detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </li>
+                <li>
+                  <h3><a href="#">Project</a></h3>
+                  <p class="detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </li>
+                <li>
+                  <h3><a href="#">Project</a></h3>
+                  <p class="detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </li>
+              </ul>
+            </div>
+          </section><!-- project -->
+
+          <!-- skill -->
+          <section class="resume-item skill">
+            <div class="inner">
+              <h2>Skill</h2>
+              <ul>
+                <li>
+                  <h3>HTML5 & CSS3</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 90% ;"></span>
+                  </div>
+                </li>
+                <li>
+                  <h3>Javascript & Jquery</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 90% ;"></span>
+                  </div>
+                </li>
+                <li>
+                  <h3>Bootstrap</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 80% ;"></span>
+                  </div>
+                </li>
+                <li>
+                  <h3>Node</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 75% ;"></span>
+                  </div>
+                </li>
+                <li>
+                  <h3>Linux</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 60% ;"></span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section><!-- skill -->
+
+        </div>
+      </section><!-- main -->
+
+      <footer>
+          © 2016 dhpark. All rights reserved.
+      </footer>
+
+    </div>
+
+    <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
+    <script src="./assets/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
+    <script src="./assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
