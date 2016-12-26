@@ -19,20 +19,19 @@ body {
 /* header */
 header {
   position: relative ;
-  height: 150px ;
   padding: 30px ;
   border-bottom: 1px solid #ededed ;
 }
 header h1 {
   position: absolute ;
-  right: 190px ;
+  bottom: 60px ;
+  right: 180px ;
   font-size: 42px ;
 }
 header .name-container {
   position: absolute ;
   display: block ;
   left: 770px ;
-  /*right: 770px ;*/
   bottom: 0 ;
   height: 30px ;
   padding-left: 10px ;
@@ -44,7 +43,6 @@ header .job-container {
   position: absolute ;
   display: block ;
   left: 770px ;
-  /*right: 770px ;*/
   z-index: 1 ;
   bottom: -30px ;
   height: 30px ;
@@ -71,9 +69,9 @@ header .profile-picture img {
   border: 1px solid rgba(0, 0, 0, 0.1) ;
 }
 header .contact-container {
-  position: absolute ;
-  top: 30px ;
-  left: 60px ;
+  position: relative ;
+  top: 0px ;
+  left: 30px ;
 }
 header .contact-container .contact-list {
   text-align: left ;
@@ -100,17 +98,8 @@ header .contact-container .contact-list li span {
 #main {
   position: relative ;
 }
-/*#main > .side-bar {
-  position: absolute ;
-  top: 0 ;
-  right: 0 ;
-  z-index: 1 ;
-  width: 240px ;
-  height: 100% ;
-  padding-top: 50px ;
-  border-left: 1px solid #ededed ;
-}*/
-#main > .main-bar {
+
+#main > .resume-item-wrapper {
   position: relative ;
   top: 0 ;
   left: 0px ;
@@ -140,9 +129,6 @@ header .contact-container .contact-list li span {
   text-align: left ;
   text-transform: capitalize ;
 }
-#main .resume-item ul {
-  margin: 0 ;
-}
 #main ul li {
   position: relative ;
   margin: 0 0 30px ;
@@ -151,7 +137,6 @@ header .contact-container .contact-list li span {
 
 /* experience */
 .experience h3 {
-  margin: 0 0 3px ;
   font-size: 18px ;
 }
 .experience .company {
@@ -180,7 +165,6 @@ header .contact-container .contact-list li span {
 .project h3 {
   position: relative ;
   display: inline ;
-  /*padding-right: 15px ;*/
   color: #666 ;
   font-size: 16px ;
 }
