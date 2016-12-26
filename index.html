@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
-    <title>Bootstrap</title>
 
-    <!-- bootstrap -->
-    <link href="./assets/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Résumé</title>
+
+    <!-- Noto Sans KR-Hestia -->
+    <link rel="stylesheet" href="./assets/noto-fonts/stylesheets/NotoSansKR-Hestia.css">
 
     <!-- font-awesome -->
     <link href="./assets/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -25,13 +25,12 @@
     <![endif]-->
   </head>
   <body>
-
     <div class="resume-wrapper">
 
       <!-- header -->
       <header>
         <h1 class="heading-container">Résumé</h1>
-        <h2 class="name-container">DHPARK</h2>
+        <h2 class="name-container">dhpark</h2>
         <h3 class="job-container">Web Developer</h3>
         <div class="profile-picture">
           <img src="./assets/img/profile.png" alt="profile picture">
@@ -39,20 +38,20 @@
         <div class="contact-container">
           <ul class="contact-list">
             <li>
-              <a href="https://github.com/dhparkdh" target="_blank">https://github.com/dhparkdh</a>
-              <span><i class="fa fa-github" aria-hidden="true"></i></span>
+              <a href="tel:010-0000-0000">+82. 010. 0000. 0000</a>
+              <span><i class="fa fa-mobile" aria-hidden="true"></i></span>
             </li>
             <li>
-              <a href="https://dhparkdh.github.io" target="_blank">https://dhparkdh.github.io</a>
-              <span><i class="fa fa-globe" aria-hidden="true"></i></span>
-            </li>
-            <li>
-              <a href="mailto:dhpark0648@gmail.com">dhpark0648@gmail.com</a>
+              <a href="mailto:test@email.com">test@email.com</a>
               <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
             </li>
             <li>
-              <a href="tel:010-0000-0000">010-0000-0000</a>
-              <span><i class="fa fa-mobile" aria-hidden="true"></i></span>
+              <a href="#" target="_blank">your homepage</a>
+              <span><i class="fa fa-globe" aria-hidden="true"></i></span>
+            </li>
+            <li>
+              <a href="#" target="_blank">your github</a>
+              <span><i class="fa fa-github" aria-hidden="true"></i></span>
             </li>
           </ul>
         </div>
@@ -60,8 +59,8 @@
 
       <!-- main -->
       <section id="main">
-        <div class="left"></div>
-        <div class="right">
+        <div class="side-bar"></div>
+        <div class="main-bar">
 
           <!-- experince -->
           <section class="resume-item experience">
@@ -69,21 +68,21 @@
               <h2>experience</h2>
               <ul>
                 <li>
-                  <h3>Company</h3>
-                  <h4 class="role">Front-End Developer</h4>
-                  <span class="date">2015 - 2016</span>
+                  <h3>Chief Technology Officer</h3>
+                  <h4 class="company">Global Unicorn Corp. in Bundang</h4>
+                  <span class="date">2016 - present</span>
                   <p class="detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </li>
                 <li>
-                  <h3>Company</h3>
-                  <h4 class="role">Front-End Developer</h4>
-                  <span class="date">2015 - 2016</span>
+                  <h3>Senoir Web Developer</h3>
+                  <h4 class="company">Great Startup Corp. in Gangnam</h4>
+                  <span class="date">2014 - 2016</span>
                   <p class="detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </li>
                 <li>
-                  <h3>Company</h3>
-                  <h4 class="role">Front-End Developer</h4>
-                  <span class="date">2015 - 2016</span>
+                  <h3>Junir Front-End Developer</h3>
+                  <h4 class="company">ABC Web Agency in Hongdae</h4>
+                  <span class="date">2010 - 2014</span>
                   <p class="detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </li>
               </ul>
@@ -96,16 +95,19 @@
               <h2>Project</h2>
               <ul>
                 <li>
-                  <h3><a href="#">Project</a></h3>
+                  <h3><a href="#" target="_blank">Project</a></h3>
                   <p class="detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p class="tags">#HTML5 #CSS3</p>
                 </li>
                 <li>
-                  <h3><a href="#">Project</a></h3>
+                  <h3><a href="#" target="_blank">Project</a></h3>
                   <p class="detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p class="tags">#HTML5 #CSS3</p>
                 </li>
                 <li>
-                  <h3><a href="#">Project</a></h3>
+                  <h3><a href="#" target="_blank">Project</a></h3>
                   <p class="detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p class="tags">#HTML5 #CSS3</p>
                 </li>
               </ul>
             </div>
@@ -153,15 +155,11 @@
         </div>
       </section><!-- main -->
 
+      <!-- footer -->
       <footer>
-          © 2016 dhpark. All rights reserved.
-      </footer>
+          © 2016 <a href="https://github.com/dhparkdh" target="-_blank">dhpark</a>. All rights reserved.
+      </footer><!-- footer -->
 
     </div>
-
-    <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
-    <script src="./assets/bower_components/jquery/dist/jquery.min.js"></script>
-    <!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
-    <script src="./assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

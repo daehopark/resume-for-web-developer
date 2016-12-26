@@ -3,6 +3,7 @@ body {
   margin: 0 ;
   padding: 0 ;
   color: #333 ;
+  font-family: 'Noto Sans Korean', sans-serif;
   background: #f5f5f5 ;
 }
 
@@ -18,21 +19,19 @@ body {
 /* header */
 header {
   position: relative ;
-  min-height: 150px ;
+  height: 150px ;
   padding: 30px ;
   border-bottom: 1px solid #ededed ;
 }
 header h1 {
-  position: relative ;
-  /*top: 15px ;*/
-  left: 160px ;
+  position: absolute ;
+  right: 190px ;
   font-size: 42px ;
-  /*text-transform: uppercase ;*/
 }
 header .name-container {
   position: absolute ;
   display: block ;
-  left: 290px ;
+  left: 770px ;
   /*right: 770px ;*/
   bottom: 0 ;
   height: 30px ;
@@ -44,7 +43,7 @@ header .name-container {
 header .job-container {
   position: absolute ;
   display: block ;
-  left: 290px ;
+  left: 770px ;
   /*right: 770px ;*/
   z-index: 1 ;
   bottom: -30px ;
@@ -58,7 +57,7 @@ header .job-container {
 }
 header .profile-picture {
   position: absolute ;
-  left : 190px ;
+  right : 190px ;
   bottom: -50px ;
   z-index: 2 ;
   width: 100px ;
@@ -74,15 +73,15 @@ header .profile-picture img {
 header .contact-container {
   position: absolute ;
   top: 30px ;
-  right: 60px ;
+  left: 60px ;
 }
 header .contact-container .contact-list {
-  text-align: right ;
+  text-align: left ;
 }
 header .contact-container .contact-list li {
   position: relative ;
   height: 25px ;
-  padding-right: 25px ;
+  padding-left: 25px ;
   color: #666 ;
   font-size: 13px ;
   line-height: 25px ;
@@ -90,32 +89,34 @@ header .contact-container .contact-list li {
 header .contact-container .contact-list li span {
   position: absolute ;
   top: 0 ;
-  right: 0 ;
+  left: 0 ;
   width: 25px ;
   height: 25px ;
   text-align: center ;
 }
 
+
 /* main */
 #main {
   position: relative ;
 }
-#main > .left {
+/*#main > .side-bar {
   position: absolute ;
   top: 0 ;
-  left: 0 ;
+  right: 0 ;
   z-index: 1 ;
   width: 240px ;
   height: 100% ;
   padding-top: 50px ;
-  border-right: 1px solid #ededed ;
-}
-#main > .right {
+  border-left: 1px solid #ededed ;
+}*/
+#main > .main-bar {
   position: relative ;
   top: 0 ;
-  left: 240px ;
+  left: 0px ;
   width: 720px ;
   padding: 75px 0 40px ;
+  border-right: 1px solid #ededed ;
 }
 
 #main .resume-item {
@@ -130,13 +131,13 @@ header .contact-container .contact-list li span {
 #main .resume-item h2 {
   position: absolute ;
   top: 0 ;
-  left: -240px ;
+  right: -240px ;
   z-index: 1 ;
   width: 240px ;
   height: 30px ;
-  padding: 0 60px ;
+  padding: 0 30px ;
   font-size: 24px ;
-  text-align: right ;
+  text-align: left ;
   text-transform: capitalize ;
 }
 #main .resume-item ul {
@@ -144,14 +145,16 @@ header .contact-container .contact-list li span {
 }
 #main ul li {
   position: relative ;
-  margin: 0 0 25px ;
+  margin: 0 0 30px ;
 }
 
+
+/* experience */
 .experience h3 {
   margin: 0 0 3px ;
   font-size: 18px ;
 }
-.experience .role {
+.experience .company {
   margin: 0 0 10px ;
   color: #959595 ;
   font-size: 13px ;
@@ -159,7 +162,7 @@ header .contact-container .contact-list li span {
 }
 .experience .date {
   position: absolute ;
-  top: 0 ;
+  top: 5px ;
   right: 0 ;
   color: #bbb ;
   font-size: 12px ;
@@ -169,6 +172,7 @@ header .contact-container .contact-list li span {
 }
 
 
+/* project */
 .project ul li {
   font-size: 0 ;
   line-height: 16px ;
@@ -187,7 +191,13 @@ header .contact-container .contact-list li span {
   display: inline ;
   font-size: 14px ;
 }
+.project .tags {
+  font-size: 12px ;
+  color: #999 ;
+}
 
+
+/* skill */
 .skill {
   margin-bottom: 0!important ;
 }
@@ -223,6 +233,10 @@ footer {
   left: 0 ;
   width: 100% ;
   padding: 0 30px ;
-  text-align: right ;
+  font-size: 12px ;
+  text-align: left ;
   color: #bbb ;
+}
+footer a {
+  font-weight: bold ;
 }
