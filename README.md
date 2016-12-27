@@ -127,6 +127,7 @@ Online Résumé(CV) template for web developer using HTML5 and CSS3.
           <span class="bar" style="width: Percentage% ;"></span>
         </div>
       </li>
+      ...
     </ul>
   </div>
 </section>
