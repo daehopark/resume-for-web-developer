@@ -26,13 +26,14 @@ header h1 {
   position: absolute ;
   bottom: 60px ;
   right: 180px ;
+  z-index: 1 ;
   font-size: 42px ;
 }
 header .name-container {
   position: absolute ;
-  display: block ;
   left: 770px ;
   bottom: 0 ;
+  z-index: 1 ;
   height: 30px ;
   padding-left: 10px ;
   margin: 0 ;
@@ -41,17 +42,16 @@ header .name-container {
 }
 header .job-container {
   position: absolute ;
-  display: block ;
   left: 770px ;
+  bottom: -20px ;
   z-index: 1 ;
-  bottom: -30px ;
-  height: 30px ;
+  height: 20px ;
   padding-left: 10px ;
   margin: 0 ;
   color: #666 ;
   font-size: 14px ;
   font-weight: normal ;
-  line-height: 30px ;
+  line-height: 20px ;
 }
 header .profile-picture {
   position: absolute ;
@@ -73,9 +73,6 @@ header .contact-container {
   top: 0px ;
   left: 30px ;
 }
-header .contact-container .contact-list {
-  text-align: left ;
-}
 header .contact-container .contact-list li {
   position: relative ;
   height: 25px ;
@@ -83,11 +80,13 @@ header .contact-container .contact-list li {
   color: #666 ;
   font-size: 13px ;
   line-height: 25px ;
+  text-align: left ;
 }
 header .contact-container .contact-list li span {
   position: absolute ;
   top: 0 ;
   left: 0 ;
+  z-index: 1 ;
   width: 25px ;
   height: 25px ;
   text-align: center ;
@@ -102,7 +101,7 @@ header .contact-container .contact-list li span {
 #main > .resume-item-wrapper {
   position: relative ;
   top: 0 ;
-  left: 0px ;
+  left: 0 ;
   width: 720px ;
   padding: 75px 0 40px ;
   border-right: 1px solid #ededed ;
@@ -111,15 +110,14 @@ header .contact-container .contact-list li span {
 #main .resume-item {
   position: relative ;
   padding: 0 60px ;
-  margin-bottom: 40px ;
+  margin-bottom: 60px ;
 }
 #main .resume-item .inner {
-  padding-bottom: 20px ;
   border-bottom: 1px solid #ededed ;
 }
 #main .resume-item h2 {
   position: absolute ;
-  top: 0 ;
+  top: -10px ;
   right: -240px ;
   z-index: 1 ;
   width: 240px ;
