@@ -9,7 +9,15 @@ Online Résumé(CV) template for web developer using HTML5 and CSS3.
 </div>
 
 
----
+
+
+
+
+
+
+
+
+
 
 
 ## Change Your Name, Job and Profile Image
