@@ -12,7 +12,7 @@ Online Résumé(CV) template for web developer using HTML5 and CSS3.
 
 ## Change Your Name, Job and Profile Image
 
-  ```HTML5
+  ```html5
   <header>
     <h1 class="heading-container">Résumé</h1>
     <h2 class="name-container">your name</h2>
@@ -31,7 +31,7 @@ Online Résumé(CV) template for web developer using HTML5 and CSS3.
 
 ## Change Your Contact Information
 
-  ```HTML5
+  ```html5
   <header>
     ...
     <div class="contact-container">
@@ -65,7 +65,7 @@ Online Résumé(CV) template for web developer using HTML5 and CSS3.
 
 ## Change Your Experiences
 
- ```HTML5
+ ```html5
  <section class="resume-item experience">
    <div class="inner">
      <h2>experience</h2>
@@ -91,7 +91,7 @@ Online Résumé(CV) template for web developer using HTML5 and CSS3.
 
 ## Change Your Projects
 
-  ```HTML5
+  ```html5
   <section class="resume-item project">
     <div class="inner">
       <h2>project</h2>
@@ -116,7 +116,7 @@ Online Résumé(CV) template for web developer using HTML5 and CSS3.
 
 ### Change Your Skills
 
-  ```HTML5
+  ```html5
   <section class="resume-item skill">
     <div class="inner">
       <h2>Skill</h2>
