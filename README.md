@@ -3,21 +3,11 @@
 
 Online Résumé(CV) template for web developer using HTML5 and CSS3.
 
+
 <!-- ![Screenshot](/assets/img/screenshot.png) -->
 <div align="center">
   <img src="/assets/img/screenshot.png" />
 </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Change Your Name, Job and Profile Image
