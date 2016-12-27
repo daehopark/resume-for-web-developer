@@ -114,7 +114,7 @@ Online Résumé(CV) template for web developer using HTML5 and CSS3.
   - Write down hash tags about your project in second `p` tag
 
 
-### Change Your Skills
+## Change Your Skills
 
 ```html
 <section class="resume-item skill">
