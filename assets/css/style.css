@@ -219,6 +219,9 @@ footer {
   text-align: left ;
   color: #bbb ;
 }
+footer p {
+  text-align:center;
+}
 footer a {
   font-weight: bold ;
 }
