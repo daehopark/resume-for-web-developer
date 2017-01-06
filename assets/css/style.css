@@ -113,6 +113,7 @@ header .contact-container .contact-list li span {
   margin-bottom: 60px ;
 }
 #main .resume-item .inner {
+  padding-bottom: 30px ;
   border-bottom: 1px solid #ededed ;
 }
 #main .resume-item h2 {
@@ -204,7 +205,7 @@ header .contact-container .contact-list li span {
   display: block ;
   width: 60% ;
   height: 100% ;
-  background: #333 ;
+  background: #666 ;
 }
 
 
